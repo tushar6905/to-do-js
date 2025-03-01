@@ -31,7 +31,7 @@ function TodoWrapper() {
         todo.isEditing ? (
           <EditTodoForm
             key={todo.id}
-            editTodo={editTask}
+            editTask={editTask}
             task={todo}
           />
         ) : (
